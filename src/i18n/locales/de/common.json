@@ -1,0 +1,40 @@
+{
+  "navigation": {
+    "collections": "Kollektionen",
+    "ourStory": "Unsere Geschichte",
+    "globalReach": "Globale Reichweite",
+    "contact": "Kontakt",
+    "weSupplyTo": "Wir Beliefern"
+  },
+  "hero": {
+    "title": "Luxus-Heimtextilien",
+    "subtitle": "Mit Leidenschaft Gefertigt, Mit Präzision Geliefert",
+    "description": "Von unseren traditionellen Werkstätten in Karur, Indien, schaffen wir zeitlose Heimtextilien, die das tägliche Leben anspruchsvoller Kunden weltweit bereichern.",
+    "cta": "Kollektionen Erkunden"
+  },
+  "products": {
+    "title": "Unsere Kollektionen",
+    "subtitle": "Entdecken Sie unsere kuratierte Auswahl an Luxus-Heimtextilien, jedes Stück mit akribischer Aufmerksamkeit für Details und zeitloser Eleganz gefertigt.",
+    "inquireButton": "Über Unsere Produkte Anfragen"
+  },
+  "story": {
+    "title": "Unsere Geschichte",
+    "subtitle": "Wo Erbe auf Moderne Gastfreundschaft Trifft - Über drei Jahrzehnte der Herstellung von Luxustextilien mit Leidenschaft und Präzision."
+  },
+  "weSupplyTo": {
+    "title": "Wir Beliefern",
+    "subtitle": "Vertraut von anspruchsvollen Unternehmen weltweit, arbeiten wir mit Marken zusammen, die unser Engagement für Qualität, Handwerkskunst und zeitloses Design teilen."
+  },
+  "globalReach": {
+    "title": "Globale Reichweite",
+    "subtitle": "Von unserem Hauptsitz in Indien exportieren wir Premium-Heimtextilien an anspruchsvolle Kunden auf der ganzen Welt und bringen Luxus und Handwerkskunst in Häuser weltweit."
+  },
+  "inquiry": {
+    "title": "Produktanfrage",
+    "subtitle": "Erzählen Sie uns von Ihren Anforderungen und wir melden uns bald bei Ihnen."
+  },
+  "footer": {
+    "description": "Herstellung von Luxus-Heimtextilien mit Leidenschaft und Präzision seit den 1990er Jahren. Von unserem Hauptsitz in Karur, Indien, bringen wir zeitlose Eleganz in Häuser weltweit.",
+    "copyright": "© {{year}} Amity International. Alle Rechte vorbehalten."
+  }
+}

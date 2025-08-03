@@ -1,0 +1,40 @@
+{
+  "navigation": {
+    "collections": "Collections",
+    "ourStory": "Notre Histoire",
+    "globalReach": "Portée Mondiale",
+    "contact": "Contact",
+    "weSupplyTo": "Nous Fournissons À"
+  },
+  "hero": {
+    "title": "Textiles de Luxe pour la Maison",
+    "subtitle": "Fabriqués avec Passion, Livrés avec Précision",
+    "description": "Depuis nos ateliers patrimoniaux à Karur, en Inde, nous créons des textiles intemporels pour la maison qui élèvent la vie quotidienne des clients exigeants du monde entier.",
+    "cta": "Explorer les Collections"
+  },
+  "products": {
+    "title": "Nos Collections",
+    "subtitle": "Découvrez notre sélection soignée de textiles de luxe pour la maison, chaque pièce fabriquée avec une attention méticuleuse aux détails et une élégance intemporelle.",
+    "inquireButton": "Se Renseigner sur Nos Produits"
+  },
+  "story": {
+    "title": "Notre Histoire",
+    "subtitle": "Où le Patrimoine Rencontre l'Hospitalité Moderne - Plus de trois décennies à fabriquer des textiles de luxe avec passion et précision."
+  },
+  "weSupplyTo": {
+    "title": "Nous Fournissons À",
+    "subtitle": "Approuvé par des entreprises exigeantes du monde entier, nous nous associons avec des marques qui partagent notre engagement envers la qualité, l'artisanat et le design intemporel."
+  },
+  "globalReach": {
+    "title": "Portée Mondiale",
+    "subtitle": "Depuis notre siège en Inde, nous exportons des textiles premium pour la maison vers des clients exigeants à travers le monde, apportant luxe et artisanat aux foyers mondialement."
+  },
+  "inquiry": {
+    "title": "Demande de Produit",
+    "subtitle": "Parlez-nous de vos exigences et nous vous répondrons bientôt."
+  },
+  "footer": {
+    "description": "Fabriquant des textiles de luxe pour la maison avec passion et précision depuis les années 1990. Depuis notre siège à Karur, en Inde, nous apportons une élégance intemporelle aux foyers du monde entier.",
+    "copyright": "© {{year}} Amity International. Tous droits réservés."
+  }
+}

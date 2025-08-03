@@ -1,0 +1,143 @@
+{
+  "navigation": {
+    "collections": "Collections",
+    "ourStory": "Our Story",
+    "globalReach": "Global Reach",
+    "contact": "Contact",
+    "weSupplyTo": "We Supply To"
+  },
+  "hero": {
+    "title": "Amity International",
+    "subtitle": "Crafted with Passion, Delivered with Precision",
+    "description": "From our heritage workshops in Karur, India, we create timeless home textiles that elevate everyday living for discerning customers worldwide.",
+    "cta": "Explore Collections"
+  },
+  "products": {
+    "title": "Our Collections",
+    "subtitle": "Discover our curated selection of luxury home textiles, each piece crafted with meticulous attention to detail and timeless elegance.",
+    "inquireButton": "Inquire About Our Products",
+    "categories": {
+      "livingSleeping": "Living & Sleeping",
+      "bathSpa": "Bath & Spa",
+      "kitchenDining": "Kitchen & Dining",
+      "lifestyleUtility": "Lifestyle & Utility"
+    },
+    "subcategories": {
+      "bedLinens": "Bed Linens",
+      "curtains": "Curtains",
+      "cushionCovers": "Cushion Covers",
+      "bathTowels": "Bath Towels",
+      "kitchenTowels": "Kitchen Towels",
+      "aprons": "Aprons",
+      "ovenGloves": "Oven Gloves & Pot Holders",
+      "tableLinens": "Table Linens",
+      "toteBags": "Tote Bags",
+      "laundryBags": "Laundry Bags",
+      "storageSolutions": "Storage Solutions"
+    }
+  },
+  "story": {
+    "title": "Our Story",
+    "subtitle": "Where Heritage Meets Modern Hospitality - Over three decades of crafting luxury textiles with passion and precision.",
+    "timeline": {
+      "1990s": {
+        "title": "1990s",
+        "content": "Founded in Karur, one of India's oldest textile hubs, Amity International began as a small family business with a simple belief: that beautiful, high-quality home textiles can be made with soul, not excess."
+      },
+      "2000s": {
+        "title": "2000s", 
+        "content": "Expanded our operations to become a vertically integrated manufacturer, working closely with artisans, designers, and mills. We specialized in luxury cotton and linen home textiles."
+      },
+      "2010s": {
+        "title": "2010s",
+        "content": "Began expanding globally, quietly powering shelves, showrooms, and interiors across North America, Europe, Japan, and Australia."
+      },
+      "2020s": {
+        "title": "2020s",
+        "content": "Became a trusted textile partner for global retailers, design houses, and boutique hospitality brands worldwide."
+      },
+      "today": {
+        "title": "Today",
+        "content": "Continuing our mission to craft timeless home textiles that elevate everyday living — blending Indian craftsmanship with international quality and taste."
+      }
+    }
+  },
+  "weSupplyTo": {
+    "title": "We Supply To",
+    "subtitle": "Trusted by discerning businesses worldwide, we partner with brands that share our commitment to quality, craftsmanship, and timeless design.",
+    "clientTypes": {
+      "boutiqueRetailers": {
+        "quote": "Boutique Retailers",
+        "name": "Curated Collections",
+        "title": "Premium Home Goods Stores"
+      },
+      "interiorDesign": {
+        "quote": "Interior Design Studios", 
+        "name": "Professional Designers",
+        "title": "Residential & Commercial Projects"
+      },
+      "hospitality": {
+        "quote": "Hospitality Brands",
+        "name": "Hotels & Resorts", 
+        "title": "Luxury Accommodation"
+      },
+      "ethical": {
+        "quote": "Ethical Marketplaces",
+        "name": "Sustainable Retailers",
+        "title": "Conscious Commerce"
+      },
+      "concept": {
+        "quote": "Concept Stores",
+        "name": "Lifestyle Brands",
+        "title": "Experiential Retail"
+      }
+    }
+  },
+  "globalReach": {
+    "title": "Global Reach",
+    "subtitle": "From our headquarters in India, we export premium home textiles to discerning customers across the globe, bringing luxury and craftsmanship to homes worldwide.",
+    "stats": {
+      "countries": "Countries",
+      "productsShipped": "Products Shipped", 
+      "yearsExperience": "Years Experience",
+      "customerSatisfaction": "Customer Satisfaction"
+    },
+    "keyMarkets": "Our Key Markets"
+  },
+  "inquiry": {
+    "title": "Product Inquiry",
+    "subtitle": "Tell us about your requirements and we'll get back to you soon.",
+    "form": {
+      "fullName": "Full Name",
+      "email": "Email Address",
+      "company": "Company",
+      "message": "Message",
+      "messagePlaceholder": "Tell us about your requirements...",
+      "submit": "Submit Inquiry",
+      "submitting": "Submitting..."
+    },
+    "success": "Thank you! Your inquiry has been submitted successfully. We'll get back to you soon.",
+    "error": "Sorry, there was an error submitting your inquiry. Please try again."
+  },
+  "footer": {
+    "description": "Crafting luxury home textiles with passion and precision since the 1990s. From our headquarters in Karur, India, we bring timeless elegance to homes worldwide.",
+    "quickLinks": "Quick Links",
+    "contactUs": "Contact Us",
+    "productCategories": "Our Product Categories",
+    "copyright": "© {{year}} Amity International. All rights reserved.",
+    "legal": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service", 
+      "quality": "Quality Standards"
+    }
+  },
+  "common": {
+    "back": "Back",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "close": "Close",
+    "viewMore": "View More",
+    "learnMore": "Learn More"
+  }
+}

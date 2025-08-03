@@ -1,0 +1,62 @@
+{
+  "navigation": {
+    "collections": "Colecciones",
+    "ourStory": "Nuestra Historia",
+    "globalReach": "Alcance Global",
+    "contact": "Contacto",
+    "weSupplyTo": "Suministramos A"
+  },
+  "hero": {
+    "title": "Textiles de Lujo para el Hogar",
+    "subtitle": "Elaborados con Pasión, Entregados con Precisión",
+    "description": "Desde nuestros talleres tradicionales en Karur, India, creamos textiles atemporales para el hogar que elevan la vida cotidiana de clientes exigentes en todo el mundo.",
+    "cta": "Explorar Colecciones"
+  },
+  "products": {
+    "title": "Nuestras Colecciones",
+    "subtitle": "Descubre nuestra selección curada de textiles de lujo para el hogar, cada pieza elaborada con meticulosa atención al detalle y elegancia atemporal.",
+    "inquireButton": "Consultar Sobre Nuestros Productos",
+    "categories": {
+      "livingSleeping": "Sala y Dormitorio",
+      "bathSpa": "Baño y Spa",
+      "kitchenDining": "Cocina y Comedor",
+      "lifestyleUtility": "Estilo de Vida y Utilidad"
+    }
+  },
+  "story": {
+    "title": "Nuestra Historia",
+    "subtitle": "Donde el Patrimonio se Encuentra con la Hospitalidad Moderna - Más de tres décadas elaborando textiles de lujo con pasión y precisión."
+  },
+  "weSupplyTo": {
+    "title": "Suministramos A",
+    "subtitle": "Confiado por empresas exigentes en todo el mundo, nos asociamos con marcas que comparten nuestro compromiso con la calidad, la artesanía y el diseño atemporal."
+  },
+  "globalReach": {
+    "title": "Alcance Global",
+    "subtitle": "Desde nuestra sede en India, exportamos textiles premium para el hogar a clientes exigentes en todo el mundo, llevando lujo y artesanía a hogares mundialmente.",
+    "stats": {
+      "countries": "Países",
+      "productsShipped": "Productos Enviados",
+      "yearsExperience": "Años de Experiencia", 
+      "customerSatisfaction": "Satisfacción del Cliente"
+    }
+  },
+  "inquiry": {
+    "title": "Consulta de Producto",
+    "subtitle": "Cuéntanos sobre tus requisitos y te responderemos pronto.",
+    "form": {
+      "fullName": "Nombre Completo",
+      "email": "Dirección de Correo",
+      "company": "Empresa",
+      "message": "Mensaje",
+      "submit": "Enviar Consulta",
+      "submitting": "Enviando..."
+    }
+  },
+  "footer": {
+    "description": "Elaborando textiles de lujo para el hogar con pasión y precisión desde los años 1990. Desde nuestra sede en Karur, India, llevamos elegancia atemporal a hogares en todo el mundo.",
+    "quickLinks": "Enlaces Rápidos",
+    "contactUs": "Contáctanos",
+    "copyright": "© {{year}} Amity International. Todos los derechos reservados."
+  }
+}
