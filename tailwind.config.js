@@ -7,6 +7,8 @@ export default {
       fontFamily: {
         'arabic': ['Noto Sans Arabic', 'sans-serif'],
         'japanese': ['Noto Sans JP', 'sans-serif'],
+        'heading': ['Playfair Display', 'serif'],
+        'body': ['Nunito Sans', 'sans-serif'],
       },
       animation: {
         'float-slow': 'float 6s ease-in-out infinite',

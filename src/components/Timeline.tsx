@@ -34,13 +34,14 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
 
   return (
     <div
-      className="w-full bg-neutral-950 font-sans md:px-10 text-white pb-32"
+              className="w-full bg-neutral-950 font-sans md:px-10 pb-32"
+        style={{ color: '#f7f8f6' }}
       ref={containerRef}
     >
       <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
-        <h2 className="text-lg md:text-4xl mb-4 text-white max-w-4xl font-light">
-          🧵 Our Story
-        </h2>
+                            <h2 className="text-lg md:text-4xl mb-4 max-w-4xl font-light" style={{ color: '#f7f8f6', fontFamily: 'Playfair Display, serif' }}>
+            🧵 Our Story
+          </h2>
         <p className="text-neutral-300 text-sm md:text-base max-w-sm">
           Where Heritage Meets Modern Hospitality - Over three decades of crafting luxury textiles with passion and precision.
         </p>
@@ -82,7 +83,8 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
               height: heightTransform,
               opacity: opacityTransform,
             }}
-            className="absolute inset-x-0 top-0 w-[2px] bg-gradient-to-t from-orange-500 via-orange-400 to-transparent from-[0%] via-[10%] rounded-full"
+                            className="absolute inset-x-0 top-0 w-[2px] rounded-full"
+                style={{ background: 'linear-gradient(to top, #f4a94e 0%, #f4a94e 10%, transparent 100%)' }}
           />
         </div>
       </div>

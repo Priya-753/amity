@@ -86,7 +86,7 @@ export const companyLinks: InternalLink[] = [
   {
     text: "Global Export Network",
     href: "#global-reach",
-    description: "Serving 50+ countries worldwide"
+    description: "Serving 10+ countries worldwide"
   },
   {
     text: "Client Portfolio",

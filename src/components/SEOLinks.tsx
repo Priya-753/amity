@@ -100,7 +100,7 @@ export const SEOLinks: React.FC<SEOLinksProps> = ({ className = '' }) => {
         >
           hospitality brands and ethical marketplaces
         </a>{' '}
-        across 50+ countries.
+        across 10+ countries.
       </p>
     </div>
   );

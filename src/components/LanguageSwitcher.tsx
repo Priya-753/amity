@@ -26,7 +26,8 @@ export const LanguageSwitcher: React.FC = () => {
     <div className={`relative ${isRTL ? 'text-right' : 'text-left'}`}>
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="flex items-center space-x-2 px-3 py-2 text-sm font-medium text-gray-700 hover:text-gray-900 transition-colors duration-200 bg-white border border-gray-200 rounded-lg hover:border-gray-300"
+        className="flex items-center space-x-2 px-3 py-2 text-sm font-medium text-gray-700 hover:text-gray-900 transition-colors duration-200 border border-gray-200 rounded-lg hover:border-gray-300"
+        style={{ backgroundColor: '#f7f8f6' }}
         aria-label="Select language"
       >
         <Globe className="w-4 h-4" />
@@ -44,7 +45,8 @@ export const LanguageSwitcher: React.FC = () => {
           />
           
           {/* Dropdown */}
-          <div className={`absolute top-full mt-2 w-48 bg-white border border-gray-200 rounded-lg shadow-lg z-20 ${
+          <div className={`absolute top-full mt-2 w-48 border border-gray-200 rounded-lg shadow-lg z-20 ${
+          style={{ backgroundColor: '#f7f8f6' }}
             isRTL ? 'right-0' : 'left-0'
           }`}>
             <div className="py-1">

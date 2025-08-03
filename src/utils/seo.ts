@@ -76,7 +76,7 @@ export const seoConfigs: Record<string, SEOConfig> = {
   },
   story: {
     title: 'Our Heritage Story | 30+ Years of Textile Craftsmanship | Amity International',
-    description: 'Discover our journey from a small family business in Karur to a trusted global textile partner serving 50+ countries with premium home textiles.',
+    description: 'Discover our journey from a small family business in Karur to a trusted global textile partner serving 10+ countries with premium home textiles.',
     keywords: ['textile heritage', 'Indian craftsmanship', 'textile manufacturer history', 'Karur textiles', 'family business']
   }
 };

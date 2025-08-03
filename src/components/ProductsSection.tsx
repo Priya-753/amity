@@ -298,7 +298,7 @@ const ProductsSection = () => {
           {!selectedCategory ? (
             <>
               <div className="text-center mb-16">
-                <h2 className="text-4xl md:text-5xl font-light text-gray-900 mb-6">
+                <h2 className="text-4xl md:text-5xl font-light text-gray-900 mb-6" style={{ fontFamily: 'Playfair Display, serif' }}>
                   {t('products.title')}
                 </h2>
                 <p className="text-lg text-gray-600 max-w-2xl mx-auto font-light leading-relaxed">
@@ -335,7 +335,7 @@ const ProductsSection = () => {
 
               {/* Category Header */}
               <div className="text-center mb-16">
-                <h2 className="text-4xl md:text-5xl font-light text-gray-900 mb-6">
+                <h2 className="text-4xl md:text-5xl font-light text-gray-900 mb-6" style={{ fontFamily: 'Playfair Display, serif' }}>
                   {categories.find(cat => cat.id === selectedCategory)?.name}
                 </h2>
                 <p className="text-lg text-gray-600 max-w-2xl mx-auto font-light leading-relaxed">
@@ -358,14 +358,6 @@ const ProductsSection = () => {
                   onCardClick={(card) => setSelectedCategory(card.id)}
                 />
               </div>
-              
-              {/* Internal Links Section */}
-              <div className="mb-16">
-                <InternalLinks 
-                  title="Explore Our Product Categories"
-                  links={productLinks}
-                />
-              </div>
             </>
           )}
 
@@ -383,7 +375,8 @@ const ProductsSection = () => {
           <div id="contact" className="fixed bottom-8 right-8 z-40">
             <button
               onClick={() => handleInquiry('general')}
-              className="px-6 py-3 bg-gray-900 text-white hover:bg-gray-800 transition-all duration-300 font-light shadow-lg rounded-full"
+              className="px-6 py-3 hover:opacity-90 transition-all duration-300 font-light shadow-lg rounded-full"
+              style={{ color: '#f7f8f6', backgroundColor: '#97c25a' }}
             >
               Inquire About Our Products
             </button>
@@ -394,10 +387,11 @@ const ProductsSection = () => {
       {/* Inquiry Form Modal */}
       {showInquiryForm && (
         <div className="fixed inset-0 bg-black/50 backdrop-blur-sm z-50 flex items-center justify-center p-4">
-          <div className="bg-white rounded-lg max-w-2xl w-full max-h-[85vh] relative animate-fade-in overflow-hidden shadow-2xl">
+          <div className="rounded-lg max-w-2xl w-full max-h-[85vh] relative animate-fade-in overflow-hidden shadow-2xl" style={{ backgroundColor: '#f7f8f6' }}>
             <button
               onClick={() => setShowInquiryForm(false)}
-              className={`absolute top-4 ${isRTL ? 'left-4' : 'right-4'} text-gray-400 hover:text-gray-600 transition-colors z-10 bg-white rounded-full p-1 shadow-sm`}
+                              className={`absolute top-4 ${isRTL ? 'left-4' : 'right-4'} text-gray-400 hover:text-gray-600 transition-colors z-10 rounded-full p-1 shadow-sm`}
+                style={{ backgroundColor: '#f7f8f6' }}
             >
               <X className="w-6 h-6" />
             </button>
@@ -405,7 +399,7 @@ const ProductsSection = () => {
             <div className="flex flex-col h-full max-h-[85vh]">
               {/* Header */}
               <div className="px-6 py-4 border-b border-gray-100">
-                <h3 className="text-2xl font-light text-gray-900">{t('inquiry.title')}</h3>
+                <h3 className="text-2xl font-light text-gray-900" style={{ fontFamily: 'Playfair Display, serif' }}>{t('inquiry.title')}</h3>
                 <p className="text-sm text-gray-600 mt-1">
                   {t('inquiry.subtitle')}
                 </p>
@@ -434,7 +428,7 @@ const ProductsSection = () => {
                       value={inquiryData.name}
                       onChange={(e) => setInquiryData({ ...inquiryData, name: e.target.value })}
                       placeholder="John Doe"
-                      className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:border-gray-400 focus:outline-none transition-colors bg-gray-50"
+                      className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:border-gray-400 focus:outline-none transition-colors bg-gray-50 text-black"
                     />
                   </div>
                   
@@ -446,7 +440,7 @@ const ProductsSection = () => {
                       value={inquiryData.email}
                       onChange={(e) => setInquiryData({ ...inquiryData, email: e.target.value })}
                       placeholder="john@company.com"
-                      className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:border-gray-400 focus:outline-none transition-colors bg-gray-50"
+                      className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:border-gray-400 focus:outline-none transition-colors bg-gray-50 text-black"
                     />
                   </div>
                   
@@ -457,7 +451,7 @@ const ProductsSection = () => {
                       value={inquiryData.phone}
                       onChange={(e) => setInquiryData({ ...inquiryData, phone: e.target.value })}
                       placeholder="Your Company Name"
-                      className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:border-gray-400 focus:outline-none transition-colors bg-gray-50"
+                      className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:border-gray-400 focus:outline-none transition-colors bg-gray-50 text-black"
                     />
                   </div>
                   
@@ -468,7 +462,7 @@ const ProductsSection = () => {
                       value={inquiryData.message}
                       onChange={(e) => setInquiryData({ ...inquiryData, message: e.target.value })}
                       placeholder={t('inquiry.form.messagePlaceholder')}
-                      className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:border-gray-400 focus:outline-none transition-colors resize-none bg-gray-50"
+                      className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:border-gray-400 focus:outline-none transition-colors resize-none bg-gray-50 text-black"
                     />
                   </div>
                 </form>
@@ -486,7 +480,8 @@ const ProductsSection = () => {
                     form="inquiry-form"
                     disabled={isSubmitting}
                     onClick={handleSubmitInquiry}
-                    className="px-6 py-2.5 bg-black text-white hover:bg-gray-800 disabled:bg-gray-400 disabled:cursor-not-allowed transition-colors duration-300 font-medium rounded-lg flex items-center justify-center text-sm"
+                    className="px-6 py-2.5 bg-black hover:bg-gray-800 disabled:bg-gray-400 disabled:cursor-not-allowed transition-colors duration-300 font-medium rounded-lg flex items-center justify-center text-sm"
+                style={{ color: '#f7f8f6' }}
                   >
                     {isSubmitting ? (
                       <>

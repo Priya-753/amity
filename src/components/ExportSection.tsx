@@ -57,11 +57,11 @@ const ExportSection = () => {
   ];
 
   return (
-    <div id="global-reach" ref={sectionRef} className="bg-white py-20">
+    <div id="global-reach" ref={sectionRef} className="py-20" style={{ backgroundColor: '#f7f8f6' }}>
       <div className="max-w-7xl mx-auto px-6">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-light text-gray-900 mb-6">
+          <h2 className="text-4xl md:text-5xl font-light text-gray-900 mb-6" style={{ fontFamily: 'Playfair Display, serif' }}>
             Global Reach
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto font-light leading-relaxed">
@@ -80,7 +80,7 @@ const ExportSection = () => {
           isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
         }`}>
           <div>
-            <div className="text-3xl md:text-4xl font-light text-gray-900 mb-2">50+</div>
+            <div className="text-3xl md:text-4xl font-light text-gray-900 mb-2">10+</div>
             <div className="text-sm text-gray-600 uppercase tracking-wider">Countries</div>
           </div>
           <div>

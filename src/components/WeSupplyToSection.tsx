@@ -31,11 +31,11 @@ const WeSupplyToSection = () => {
   ];
 
   return (
-    <div id="we-supply-to" className="bg-white py-20">
+    <div id="we-supply-to" className="py-20" style={{ backgroundColor: '#f7f8f6' }}>
       <div className="max-w-7xl mx-auto px-6">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-light text-gray-900 mb-6">
+          <h2 className="text-4xl md:text-5xl font-light text-gray-900 mb-6" style={{ fontFamily: 'Playfair Display, serif' }}>
             We Supply To
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto font-light leading-relaxed">

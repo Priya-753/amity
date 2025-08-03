@@ -49,9 +49,9 @@ const StorySection = () => {
                     />
                   </div>
                 </div>
-                <div className="mt-2 flex flex-shrink-0 items-center justify-between p-3 md:p-4 font-mono text-white">
+                <div className="mt-2 flex flex-shrink-0 items-center justify-between p-3 md:p-4 font-mono" style={{ color: '#f7f8f6' }}>
                   <div className="text-xs md:text-sm">Early workshop - Traditional craftsmanship</div>
-                  <div className="text-xs text-orange-300 opacity-50">#1990</div>
+                  <div className="text-xs opacity-50" style={{ color: '#f4a94e' }}>#1990</div>
                 </div>
               </button>
             </CometCard>
@@ -104,7 +104,7 @@ const StorySection = () => {
                 </div>
                 <div className="mt-2 flex flex-shrink-0 items-center justify-between p-3 md:p-4 font-mono text-white">
                   <div className="text-xs md:text-sm">Modern luxury - Future vision</div>
-                  <div className="text-xs text-orange-300 opacity-50">#2024</div>
+                  <div className="text-xs opacity-50" style={{ color: '#f4a94e' }}>#2024</div>
                 </div>
               </button>
             </CometCard>
@@ -157,7 +157,7 @@ const StorySection = () => {
                 </div>
                 <div className="mt-2 flex flex-shrink-0 items-center justify-between p-3 md:p-4 font-mono text-white">
                   <div className="text-xs md:text-sm">Sustainable production - Eco-friendly materials</div>
-                  <div className="text-xs text-orange-300 opacity-50">#2010</div>
+                  <div className="text-xs opacity-50" style={{ color: '#f4a94e' }}>#2010</div>
                 </div>
               </button>
             </CometCard>
@@ -210,7 +210,7 @@ const StorySection = () => {
                 </div>
                 <div className="mt-2 flex flex-shrink-0 items-center justify-between p-3 md:p-4 font-mono text-white">
                   <div className="text-xs md:text-sm">Global expansion - Custom designs</div>
-                  <div className="text-xs text-orange-300 opacity-50">#2020</div>
+                  <div className="text-xs opacity-50" style={{ color: '#f4a94e' }}>#2020</div>
                 </div>
               </button>
             </CometCard>
@@ -263,7 +263,7 @@ const StorySection = () => {
                 </div>
                 <div className="mt-2 flex flex-shrink-0 items-center justify-between p-3 md:p-4 font-mono text-white">
                   <div className="text-xs md:text-sm">Modern luxury - Future vision</div>
-                  <div className="text-xs text-orange-300 opacity-50">#2024</div>
+                  <div className="text-xs opacity-50" style={{ color: '#f4a94e' }}>#2024</div>
                 </div>
               </button>
             </CometCard>
@@ -284,7 +284,11 @@ const StorySection = () => {
           <div className="relative max-w-4xl max-h-[90vh] w-full">
             <button
               onClick={() => setSelectedImage(null)}
-              className="absolute -top-12 right-0 text-white hover:text-orange-300 transition-colors z-10"
+              className="absolute -top-12 right-0 transition-colors z-10"
+              style={{ color: '#f7f8f6' } as React.CSSProperties}
+              style={{ '--tw-text-opacity': '1' } as React.CSSProperties}
+              onMouseEnter={(e) => e.currentTarget.style.color = '#f4a94e'}
+              onMouseLeave={(e) => e.currentTarget.style.color = 'white'}
             >
               <X className="w-8 h-8" />
             </button>
@@ -293,7 +297,7 @@ const StorySection = () => {
               alt={selectedImage.alt}
               className="w-full h-full object-contain rounded-lg"
             />
-            <div className="absolute bottom-0 left-0 right-0 bg-black/70 text-white p-4 rounded-b-lg">
+            <div className="absolute bottom-0 left-0 right-0 bg-black/70 p-4 rounded-b-lg" style={{ color: '#f7f8f6' }}>
               <h3 className="text-lg font-medium">{selectedImage.alt}</h3>
             </div>
           </div>
